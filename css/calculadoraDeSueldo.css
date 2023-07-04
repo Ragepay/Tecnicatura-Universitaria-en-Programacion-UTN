@@ -1,0 +1,372 @@
+* {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+header {
+  background-color: #14805c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 1em 5%;
+}
+
+.header .logo {
+  cursor: pointer;
+}
+
+.header .logo img {
+  height: 5vh;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+
+.header .menu {
+  list-style: none;
+}
+
+.header .menu li {
+  display: inline-block;
+  padding: 0 20px;
+  background-color: #14805c;
+  transition: all 0.3s ease 0s;
+}
+
+.header .menu li:hover {
+  transform: scale(1.1);
+}
+
+.header .menu a {
+  font-size: 700;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.header .boton button {
+  font-weight: 700;
+  color: #14805c;
+  padding: 9px 25px;
+  background-color: #fafafa;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header .boton button:hover {
+  transform: scale(1.1);
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav {
+    max-width: 100%;
+  }
+
+  .header .menu {
+    display: none;
+  }
+
+  .header .boton {
+    margin-top: 10px;
+  }
+}
+
+
+.containerBox {
+  text-align: center;
+  margin: 3em;
+  padding: 1.5em;
+  border: 5px solid #14805c;
+  border-radius: 1em;
+}
+
+h1 {
+  display: flex;
+  font-size: 1.6em;
+  color: #14805c;
+  justify-content: center;
+  padding-bottom: .5em;
+}
+
+h2 {
+  font-size: 1.3em;
+  color: #14805c;
+}
+
+.horasNormales {
+  justify-content: space-between;
+  padding: .3em;
+}
+
+@media (min-width: 350px) {
+  .horasNormales{
+    display: flex;
+  }
+}
+
+
+#labelHorasNormales {
+  color: #14805c;
+  font-weight: bold;
+}
+
+#inputHorasNormales {
+  height: 2em;
+  width: 5em;
+  border-radius: 4em;
+  appearance: none;
+  text-align: center;
+
+}
+
+#inputHorasNormales::-webkit-inner-spin-button,
+#inputHorasNormales::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+
+.horasExtras {
+  justify-content: space-between;
+  padding: .3em;
+}
+
+@media (min-width: 350px) {
+  .horasExtras{
+    display: flex;
+  }
+}
+
+#labelHorasExtras {
+  color: #14805c;
+  font-weight: bold;
+}
+
+#inputHorasExtras {
+  height: 2em;
+  width: 5em;
+  border-radius: 4em;
+  appearance: none;
+  text-align: center;
+}
+
+#inputHorasExtras::-webkit-inner-spin-button,
+#inputHorasExtras::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.precioHoraNormal {
+  justify-content: space-between;
+  padding: .3em;
+}
+
+@media (min-width: 350px) {
+  .precioHoraNormal{
+    display: flex;
+  }
+}
+
+#labelPrecioHoraNormal {
+  color: #14805c;
+  font-weight: bold;
+}
+
+#inputPrecioHoraNormal {
+  height: 2em;
+  width: 5em;
+  border-radius: 4em;
+  appearance: none;
+  text-align: center;
+}
+
+#inputPrecioHoraNormal::-webkit-inner-spin-button,
+#inputPrecioHoraNormal::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.precioHoraExtra {
+  justify-content: space-between;
+  padding: .3em;
+}
+
+@media (min-width: 350px) {
+  .precioHoraExtra{
+    display: flex;
+    text-align: left;
+  }
+}
+
+#labelPrecioHoraExtra {
+  color: #14805c;
+  font-weight: bold;
+
+}
+
+#inputPrecioHoraExtra {
+  height: 2em;
+  width: 5em;
+  border-radius: 4em;
+  appearance: none;
+  text-align: center;
+}
+
+#inputPrecioHoraExtra::-webkit-inner-spin-button,
+#inputPrecioHoraExtra::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.resultados {
+  margin: 1em;
+}
+
+.boton {
+  font-weight: 700;
+  color: #fafafa;
+  padding: 9px 25px;
+  background-color: #14805c;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.boton:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #14805c;
+  padding: 20px 0;
+  color: #fafafa;
+  font-size: 14px;
+  box-shadow: 20px 0px 0px 0px;
+
+}
+
+footer img {
+  width: 2vw;
+  height: auto;
+}
+
+#Mercadopago {
+  width: 8vw;
+  height: auto;
+}
+
+.footer-logo {
+  text-align: center;
+  border: 1px #fafafa;
+
+}
+
+.footer-finantips {
+  width: 40vw;
+  height: auto;
+}
+
+
+.footer-content {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+
+.footer-left,
+.footer-right {
+  flex: 1;
+}
+
+.footer-left h3,
+.footer-right h3 {
+  color: #e4e3e3;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.footer-right ul li {
+  margin-bottom: 5px;
+}
+
+.footer-right ul li a {
+  color: #252525;
+  text-decoration: none;
+
+}
+
+.footer-left li {
+  color: #252525;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.footer-left ul li {
+  margin-bottom: 5px;
+}
+
+.footer-left ul li a {
+  color: #252525;
+  text-decoration: none;
+}
+
+.footer-right ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-bottom {
+  background-color: #111111;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  text-align: center;
+  color: #adadad;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.version {
+  margin-right: 10px;
+}
+
+.fecha {
+  margin-left: 10px;
+}
