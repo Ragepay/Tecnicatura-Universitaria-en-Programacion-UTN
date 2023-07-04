@@ -36,3 +36,4 @@ function calcularImpuesto() {
     document.getElementById("resultado").innerHTML = "Impuesto a las ganancias: $" + impuesto.toFixed(2);
   }
 }
+fngnfdj
