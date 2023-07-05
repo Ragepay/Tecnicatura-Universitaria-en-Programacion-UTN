@@ -56,9 +56,6 @@ html{
   transition: all 0.3s ease 0s;
 }
 
-.header .menu li:hover {
-  transform: scale(1.1);
-}
 
 .header .menu a {
   font-size: 700;
@@ -213,7 +210,7 @@ h3 {
 .dolar-explicacion{
   margin: 30px;
   border: #14805c 7px solid;
-  border-radius: 5px;
+  border-radius: 1em;
   padding: 20px;
   
 }
@@ -222,7 +219,7 @@ h3 {
 
   margin: 12px;
   border: #14805c 4px solid;
-  border-radius: 5px;
+  border-radius: 1em;
   padding: 15px;
   
 }
@@ -231,7 +228,7 @@ h3 {
   
   margin: 12px;
   border: #14805c 4px solid;
-  border-radius: 5px;
+  border-radius: 1em;
   padding: 15px;
   
 }
@@ -240,7 +237,7 @@ h3 {
   
   margin: 12px;
   border: #14805c 4px solid;
-  border-radius: 5px;
+  border-radius: 1em;
   padding: 15px;
   
 }
