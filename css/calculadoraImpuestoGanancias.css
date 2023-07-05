@@ -162,7 +162,7 @@
   
   #inputSueldo {
     height: 2em;
-    width: 5em;
+    width: 8em;
     border-radius: 4em;
     appearance: none;
     text-align: center;
@@ -193,7 +193,7 @@
   
   #inputCantidadHijos {
     height: 2em;
-    width: 5em;
+    width: 8em;
     border-radius: 4em;
     appearance: none;
     text-align: center;
@@ -224,7 +224,7 @@
   
   #inputPorcentajeAportes {
     height: 2em;
-    width: 5em;
+    width: 8em;
     border-radius: 4em;
     appearance: none;
     text-align: center;
