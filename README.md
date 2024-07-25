@@ -59,11 +59,6 @@ Herramientas para convertir entre diferentes monedas, incluyendo el dólar y el 
 1. Copiá y pega este URL en tu navegador: https://ragepay.github.io/Tecnicatura-Universitaria-en-Programacion-UTN/index.html
 
 
-## Capturas de Pantalla
-
-![Captura de pantalla de la calculadora de sueldo](ruta/a/la/captura1.png)
-![Captura de pantalla de la calculadora de plazo fijo](ruta/a/la/captura2.png)
-
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si tienes sugerencias o mejoras, por favor comunicate a nuestro whatsapp o email.
