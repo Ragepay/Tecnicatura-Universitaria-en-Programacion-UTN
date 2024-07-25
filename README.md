@@ -1,4 +1,4 @@
-# Finantips
+# Finantips 1.0
 Proyecto de Facultad de Programación III y LC III de tips financieros.
 
 ## Descripción
